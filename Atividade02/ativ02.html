@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        thead, tfoot {
+
+            background-color: cornflowerblue;
+            color: rgb(0, 0, 0);
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+
+    <thead>
+
+        <tr>
+
+            <td><strong>Província</strong></td>
+            <td><strong>Cidades</strong></td>
+            <td colspan="3"><strong>Comidas</strong></td>
+
+        </tr>
+
+    </thead>
+    <tbody>
+
+        <tr>
+
+            <td rowspan="2"><strong>Aichi</strong></td>
+            <td ><strong>Nagoya</strong></td>
+            <td><img src="img/EbiFuraiNagoya.jpg" alt=""></td>
+            <td><img src="img/MisoKatsuNagoya.jpg" alt=""></td>
+            <td><img src="img/TebasakiNagoya.jpg" alt=""></td>
+            
+        </tr>
+
+        <tr>
+
+            <td><strong>Inazaya</strong></td>
+            <td><img src="img/HitsumabushiInazaya.jpg" alt=""></td>
+            <td><img src="img/KishimenInazaya.jpg" alt=""></td>
+            <td><img src="img/TenmusuInazaya.jpg" alt=""></td>
+            
+        </tr>
+
+        <tr>
+
+            <td rowspan="2"><strong>Ibaraki</strong></td>
+            <td ><strong>Mito</strong></td>
+            <td><img src="img/UmeboshiMito.jpeg" alt=""></td>
+            <td><img src="img/NatoMito.jpeg" alt=""></td>
+            <td><img src="img/AnkouNabeMito.jpeg" alt=""></td>
+            
+        </tr>
+
+        <tr>
+
+            <td><strong>Kashima</strong></td>
+            <td><img src="img/AnagoKashima.jpg" alt=""></td>
+            <td><img src="img/ShirasuKashima.jpg" alt=""></td>
+            <td><img src="img/NameroKashima.jpg"></td>
+            
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+
+        <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td colspan="3"><strong>12 Opções</strong></td>
+        </tr>
+
+    </tfoot>
+     
+    </table>
+
+</body>
+</html>
